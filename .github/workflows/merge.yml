@@ -35,7 +35,7 @@ jobs:
           #username: ${{ secrets.DOCKER_USERNAME }}
           #password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - uses: ./.github/actions/action.yml
+      - uses: ./.github/actions/
       
       - name: Set outputs
         id: vars
